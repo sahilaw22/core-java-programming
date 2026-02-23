@@ -1,4 +1,11 @@
-# ☕ Java Programming Coursework
+# Java Coursework & Projects
+
+<img src="https://github.com/user-attachments/assets/9abd6e44-0374-4490-ba07-e33f9d9e5f1e" width="140" style="float: left; margin-right:16px; margin-bottom:16px;"> 
+
+<h3>This repository contains my Java projects, course assignments and notes from the course.  
+Feel free to explore, fork, or use it as reference!</h3>
+
+<br clear="left">
 
 > A collection of Java programs written as part of my college journey into the world of programming.
 
@@ -6,7 +13,7 @@
 
 ## 📁 Programs
 
-### 1. 👋 Hello Java — `HelloJava.java`
+### 1. Hello Java — `HelloJava.java`
 
 **What it does:**
 - Stores a greeting in a `String` variable
