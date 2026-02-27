@@ -1,4 +1,4 @@
-# Java Coursework & Projects
+# Java Programming Coursework - CSP3413
 
 <img src="https://github.com/user-attachments/assets/9abd6e44-0374-4490-ba07-e33f9d9e5f1e" width="140" style="float: left; margin-right:16px; margin-bottom:16px;"> 
 
