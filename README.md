@@ -17,6 +17,7 @@ Java Programming/
 |-- Practice Sets/
 |   |__ Coding Set 4/
 |       |__ Set 4 Programs files
+|          |__ Student Management System
 |__ README.md
 ```
 
@@ -68,27 +69,80 @@ Key concepts:
 - `SET4P8.java`: Count frequency of elements in a list
 - `SET4P9.java`: Find common elements between two lists
 - `SET4P10.java`: Implement stack operations using `Deque`
+- `StudentManagementSystem.java`: Basic student record model and display
 
 ## How to Compile and Run
 
-For programs in `src`:
+Use the same pattern for any Java file:
 
 ```bash
-cd src
-javac HelloJava.java GuessNumberGame.java
-java HelloJava
-java GuessNumberGame
+cd <folder-containing-file>
+javac FileName.java
+java FileName
 ```
 
-For Coding Set 4 files:
+Examples:
+- For `src`: `cd src`
+- For Coding Set 4: `cd "Practice Sets/Coding Set 4"`
 
-```bash
-cd "Practice Sets/Coding Set 4"
-javac SET4P1.java
-java SET4P1
+## Student Management System (How It Works)
+
+File: `Practice Sets/Coding Set 4/StudentManagementSystem.java`
+
+Sample input:
+
+```text
+101 // id
+Aarav // name
+20 // age
+88.5 // marks
 ```
 
-Repeat `javac` / `java` with any other `SET4P*.java` file as needed.
+Sample output:
+
+```text
+Student Management System
+1. Add Student
+2. Remove Student
+3. Search Student
+4. Display All Students
+5. Find Top Student
+6. Exit
+Enter your choice(1-6): 1
+Enter ID: 101
+Enter Name: Aarav
+Enter Age: 20
+Enter Marks: 88.5
+Student added successfully
+
+Student Management System
+1. Add Student
+2. Remove Student
+3. Search Student
+4. Display All Students
+5. Find Top Student
+6. Exit
+Enter your choice(1-6): 4
+
+ID: 101
+Name: Aarav
+Age: 20
+Marks: 88.5
+
+Student Management System
+1. Add Student
+2. Remove Student
+3. Search Student
+4. Display All Students
+5. Find Top Student
+6. Exit
+Enter your choice(1-6): 5
+
+Top StudentID: 101
+Name: Aarav
+Age: 20
+Marks: 88.5
+```
 
 ## Topics Covered
 
