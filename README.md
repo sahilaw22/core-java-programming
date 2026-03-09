@@ -55,6 +55,73 @@ Key concepts:
 - Ternary operator
 - Conditional branching (`if / else if / else`)
 
+### 3. CountEachChar.java
+
+What it does:
+- Reads a full line of text from the console
+- Counts how many times each character appears using a `HashMap<Character, Integer>`
+- Prints each character with its frequency
+
+Key concepts:
+- `Scanner.nextLine()`
+- Iterating over `toCharArray()`
+- Map lookups and updates with `containsKey`
+
+Sample output:
+
+```text
+Enter the character
+hello java
+h:1
+e:1
+l:2
+o:1
+ :1
+j:1
+a:2
+v:1
+```
+
+### 4. CountFreqWords.java
+
+What it does:
+- Splits a user-provided sentence on spaces
+- Counts how many times each word occurs with a `HashMap<String, Integer>`
+- Prints each word followed by its frequency
+
+Key concepts:
+- `split(" ")`
+- `HashMap` with `String` keys
+- Enhanced `for` loop for traversal
+
+Sample output:
+
+```text
+Enter the sentence
+hello hello world
+hello:2
+world:1
+```
+
+### 5. removeDuplicateList.java
+
+What it does:
+- Demonstrates removing duplicate integers from a list
+- Converts the list to a `HashSet` for uniqueness and back to an `ArrayList`
+- Prints the original and deduplicated lists (order of the unique list may vary)
+
+Key concepts:
+- `HashSet` for enforcing uniqueness
+- Converting between `List` and `Set`
+- Printing collections
+
+Sample output:
+
+```text
+Original list: [1, 2, 1, 3, 4, 4]
+Unique list: [1, 2, 3, 4]
+```
+
 ## Practice Sets
 
 ### Coding Set 4 (`Practice Sets/Coding Set 4`)
@@ -156,7 +223,8 @@ Marks: 88.5
 - Sorting lists in ascending and descending order
 - Finding max/min values in collections
 - Array and list conversion (`array <-> list`)
-- Frequency counting with `HashMap`
+- Frequency counting with `HashMap` (lists, characters, words)
+- Removing duplicates from lists using `Set`
 - Finding common elements between lists
 - Basic stack operations using `Deque`
 
