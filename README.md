@@ -16,9 +16,12 @@ Java Programming/
 |   |__ Main Java programs
 |-- Practice Sets/
 |   |__ Coding Set 4/
-|       |__ Set 4 Programs files
+|       |__ Set 4 Programs (SET4P1 - P10)
 |          |__ Student Management System
+|   |__ Coding Set 2/
+|       |__ Set 4 Programs (SET2P1 - P10)
 |__ README.md
+
 ```
 
 ## Main Programs (`src`)
@@ -124,19 +127,8 @@ Unique list: [1, 2, 3, 4]
 
 ## Practice Sets
 
-### Coding Set 4 (`Practice Sets/Coding Set 4`)
-
-- `SET4P1.java`: Add and retrieve elements from an `ArrayList`
-- `SET4P2.java`: Remove an element from a list
-- `SET4P3.java`: Check if a list contains a specific element
-- `SET4P4.java`: Convert array to list and list to array
-- `SET4P5.java`: Find maximum and minimum values in a list
-- `SET4P6.java`: Reverse a list
-- `SET4P7.java`: Sort a list in ascending and descending order
-- `SET4P8.java`: Count frequency of elements in a list
-- `SET4P9.java`: Find common elements between two lists
-- `SET4P10.java`: Implement stack operations using `Deque`
-- `StudentManagementSystem.java`: Basic student record model and display
+- Coding Set 4 (`Practice Sets/Coding Set 4`): List operations (add/remove/search, reverse, sort), array↔list conversion, frequency counting, common elements, stack with `Deque`, plus a simple Student Management System console app.
+- Coding Set 2 (`Practice Sets/Coding Set 2`): Constructor practice across small classes (students, rectangles, employees, books, cars), arrays and averages, string/word processing, student arrays, and a basic bank account simulation with deposits.
 
 ## How to Compile and Run
 
@@ -151,6 +143,7 @@ java FileName
 Examples:
 - For `src`: `cd src`
 - For Coding Set 4: `cd "Practice Sets/Coding Set 4"`
+- For Coding Set 2: `cd "Practice Sets/Coding Set 2"`
 
 ## Student Management System (How It Works)
 
