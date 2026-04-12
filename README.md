@@ -15,11 +15,14 @@ Java Programming/
 |-- src/
 |   |__ Main Java programs
 |-- Practice Sets/
+|   |__ Coding Set 1/   (renamed from Coding Set 4)
+|       |__ Set 1 Programs (SET1P1 - P10)
+|   |__ Coding Set 2/
+|       |__ Set 2 Programs (SET2P1 - P10)
+|   |__ Coding Set 3/
+|       |__ Set 3 Programs
 |   |__ Coding Set 4/
 |       |__ Set 4 Programs (SET4P1 - P10)
-|          |__ Student Management System
-|   |__ Coding Set 2/
-|       |__ Set 4 Programs (SET2P1 - P10)
 |__ README.md
 
 ```
@@ -127,8 +130,9 @@ Unique list: [1, 2, 3, 4]
 
 ## Practice Sets
 
-- Coding Set 4 (`Practice Sets/Coding Set 4`): List operations (add/remove/search, reverse, sort), array↔list conversion, frequency counting, common elements, stack with `Deque`, plus a simple Student Management System console app.
+- Coding Set 1 (`Practice Sets/Coding Set 1`): Renamed from Coding Set 4; object-oriented mini projects using packages and custom exceptions (college result processing, bank/premium accounts, payroll, orders/books, etc.).
 - Coding Set 2 (`Practice Sets/Coding Set 2`): Constructor practice across small classes (students, rectangles, employees, books, cars), arrays and averages, string/word processing, student arrays, and a basic bank account simulation with deposits.
+- Coding Set 3 (`Practice Sets/Coding Set 3`): Additional practice problems (see folder for details).
 
 ## How to Compile and Run
 
@@ -142,67 +146,12 @@ java FileName
 
 Examples:
 - For `src`: `cd src`
-- For Coding Set 4: `cd "Practice Sets/Coding Set 4"`
+- For Coding Set 1: `cd "Practice Sets/Coding Set 1"`
 - For Coding Set 2: `cd "Practice Sets/Coding Set 2"`
 
-## Student Management System (How It Works)
+## Student Programs
 
-File: `Practice Sets/Coding Set 4/StudentManagementSystem.java`
-
-Sample input:
-
-```text
-101 // id
-Aarav // name
-20 // age
-88.5 // marks
-```
-
-Sample output:
-
-```text
-Student Management System
-1. Add Student
-2. Remove Student
-3. Search Student
-4. Display All Students
-5. Find Top Student
-6. Exit
-Enter your choice(1-6): 1
-Enter ID: 101
-Enter Name: Aarav
-Enter Age: 20
-Enter Marks: 88.5
-Student added successfully
-
-Student Management System
-1. Add Student
-2. Remove Student
-3. Search Student
-4. Display All Students
-5. Find Top Student
-6. Exit
-Enter your choice(1-6): 4
-
-ID: 101
-Name: Aarav
-Age: 20
-Marks: 88.5
-
-Student Management System
-1. Add Student
-2. Remove Student
-3. Search Student
-4. Display All Students
-5. Find Top Student
-6. Exit
-Enter your choice(1-6): 5
-
-Top StudentID: 101
-Name: Aarav
-Age: 20
-Marks: 88.5
-```
+- The earlier Coding Set 1 exercises (e.g., StudentManagementSystem.java) are kept in `Practice Sets/Coding Set 1_original` as a backup; they are not part of the new Coding Set 1 layout.
 
 ## Topics Covered
 
@@ -222,3 +171,6 @@ Marks: 88.5
 - Basic stack operations using `Deque`
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
+
+
+
