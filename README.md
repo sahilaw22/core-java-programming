@@ -11,19 +11,109 @@
 Folder structure:
 
 ```text
-Java Programming/
-|-- src/
-|   |__ Main Java programs
-|-- Practice Sets/
-|   |__ Coding Set 1/   (renamed from Coding Set 4)
-|       |__ Set 1 Programs (SET1P1 - P10)
-|   |__ Coding Set 2/
-|       |__ Set 2 Programs (SET2P1 - P10)
-|   |__ Coding Set 3/
-|       |__ Set 3 Programs
-|   |__ Coding Set 4/
-|       |__ Set 4 Programs (SET4P1 - P10)
-|__ README.md
+└── core-java-programming/
+    ├── README.md
+    ├── Java Programming.iml
+    ├── Practice Sets/
+    │   ├── Coding Set 1/
+    │   │   ├── SET4P10.java
+    │   │   ├── SET4P3.java
+    │   │   ├── SET4P4.java
+    │   │   ├── SET4P5.java
+    │   │   ├── SET4P8.java
+    │   │   ├── SET4P9.java
+    │   │   ├── SET4P1/
+    │   │   │   ├── college/
+    │   │   │   │   ├── Admin.java
+    │   │   │   │   └── Result.java
+    │   │   │   └── main/
+    │   │   │       └── Main.java
+    │   │   ├── SET4P2/
+    │   │   │   └── type/
+    │   │   │       ├── bank/
+    │   │   │       │   └── BankAccount.java
+    │   │   │       ├── main/
+    │   │   │       │   └── Main.java
+    │   │   │       └── premium/
+    │   │   │           └── PremiumAccount.java
+    │   │   ├── SET4P6/
+    │   │   │   └── payroll/
+    │   │   │       ├── Main.java
+    │   │   │       ├── finance/
+    │   │   │       │   └── Finance.java
+    │   │   │       ├── management/
+    │   │   │       │   └── Manager.java
+    │   │   │       └── staff/
+    │   │   │           ├── Employee.java
+    │   │   │           └── HR.java
+    │   │   └── SET4P7/
+    │   │       ├── document.txt
+    │   │       └── SET4P7.java
+    │   ├── Coding Set 2/
+    │   │   ├── SET2P1.java
+    │   │   ├── SET2P10.java
+    │   │   ├── SET2P2.java
+    │   │   ├── SET2P3.java
+    │   │   ├── SET2P4.java
+    │   │   ├── SET2P5.java
+    │   │   ├── SET2P6.java
+    │   │   ├── SET2P7.java
+    │   │   ├── SET2P8.java
+    │   │   └── SET2P9.java
+    │   ├── Coding Set 3/
+    │   │   ├── SET3P1.java
+    │   │   ├── SET3P10.java
+    │   │   ├── SET3P2.java
+    │   │   ├── SET3P3.java
+    │   │   ├── SET3P4.java
+    │   │   ├── SET3P5.java
+    │   │   ├── SET3P6.java
+    │   │   ├── SET3P7.java
+    │   │   ├── SET3P8.java
+    │   │   └── SET3P9.java
+    │   ├── Coding Set 4/
+    │   │   ├── SET4P1.java
+    │   │   ├── SET4P10.java
+    │   │   ├── SET4P2.java
+    │   │   ├── SET4P3.java
+    │   │   ├── SET4P4.java
+    │   │   ├── SET4P5.java
+    │   │   ├── SET4P6.java
+    │   │   ├── SET4P7.java
+    │   │   ├── SET4P8.java
+    │   │   ├── SET4P9.java
+    │   │   └── StudentManagementSystem.java
+    │   ├── Coding Set 5/
+    │   │   ├── SET5P1.java
+    │   │   ├── SET5P10.java
+    │   │   ├── SET5P2.java
+    │   │   ├── SET5P3.java
+    │   │   ├── SET5P4.java
+    │   │   ├── SET5P5.java
+    │   │   ├── SET5P6.java
+    │   │   ├── SET5P7.java
+    │   │   ├── SET5P8.java
+    │   │   ├── SET5P9.java
+    │   │   └── .gitkeep
+    │   └── Coding Set 6/
+    │       ├── SET6P1.java
+    │       ├── SET6P10.java
+    │       ├── SET6P2.java
+    │       ├── SET6P3.java
+    │       ├── SET6P4.java
+    │       ├── SET6P5.java
+    │       ├── SET6P6.java
+    │       ├── SET6P7.java
+    │       ├── SET6P8.java
+    │       ├── SET6P9.java
+    │       └── .gitkeep
+    └── src/
+        ├── CountEachChar.java
+        ├── CountFreqWords.java
+        ├── GuessNumberGame.java
+        ├── HelloJava.java
+        └── removeDuplicateList.java
+
 
 ```
 
