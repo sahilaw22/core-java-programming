@@ -1,10 +1,14 @@
-# Java Programming - CSP3413
+# 𝗝𝗮𝘃𝗮 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 – 𝗖𝗦𝗣𝟯𝟰𝟭𝟯
 
-<img src="https://github.com/user-attachments/assets/9abd6e44-0374-4490-ba07-e33f9d9e5f1e" width="140" style="float: left; margin-right:16px; margin-bottom:16px;">
+<img src="https://github.com/user-attachments/assets/9abd6e44-0374-4490-ba07-e33f9d9e5f1e" 
+     width="160" 
+     align="right">
 
-<h3>This repository contains my Java programs, course assignments, and practice sets from my college coursework.</h3>
+<br>
 
-<br clear="left">
+> A collection of my Java practice sets, coding exercises, and additional programs focused on strengthening and refining my programming skills.
+
+<br>
 
 ## Programs
 
